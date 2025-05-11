@@ -1,0 +1,16 @@
+.sidebar__logo {
+    width: 30%;
+}
+
+.sidebar__body {
+    display: flex;
+    flex-direction: column;
+    column-gap: 1vh;
+}
+
+.sidebar__link {
+    padding: 2vh 2vh;
+    background-color: #e0e0e0;
+    color: #1351D8;
+    text-decoration: none;
+}

@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
     {
-        path: "",
+        path: "login",
         pathMatch: "full",
         loadComponent: () => {
             return import("./pages/login/login.component").then(c => c.LoginComponent)
