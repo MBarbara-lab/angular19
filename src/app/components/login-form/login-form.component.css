@@ -4,11 +4,12 @@
     row-gap: 3vh;
     align-items: center;
     align-self: center;
+    width: 40vw;
 }
 
 .form__title {
     width: fit-content;
-    color: #1351D8;
+    color: var(--blue);
     display: block;
     grid-row: 1;
 }
@@ -63,4 +64,10 @@
     background-color: #A7A5A5;
     box-shadow: 2px 2px 3px 1px #868686;
     font-family: "Ubuntu";
+}
+
+@media all and (max-width: 670px) {
+    .right-section__form {
+        width: 85vw;
+    }
 }

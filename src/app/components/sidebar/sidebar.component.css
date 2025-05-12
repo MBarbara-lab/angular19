@@ -1,3 +1,7 @@
+:host {
+    width: 30vw;
+}
+
 .sidebar__logo {
     width: 30%;
 }
@@ -9,8 +13,21 @@
 }
 
 .sidebar__link {
-    padding: 2vh 2vh;
-    background-color: #e0e0e0;
-    color: #1351D8;
+    padding: 2vh 5vh;
+    background-color: #adadad;
+    color: var(--blue);
+    font-weight: 500;
     text-decoration: none;
+}
+
+/* REVERTING BOOTSTRAP */
+ol,
+ul {
+  padding-left: 0;
+}
+
+ol,
+ul,
+dl {
+  margin: 0;
 }

@@ -1,0 +1,11 @@
+@import "../../..//variables.css";
+
+.card {
+    width: 20vw;
+}
+
+.card__title {
+    font-size: 1.8rem;
+    padding: 2vh;
+    background-color: #f7f7f7;
+}

@@ -1,30 +1,28 @@
+<app-navbar></app-navbar>
+<app-sidebar></app-sidebar>
 
-<section>
-<div class="shadow border-black p-3">
-    <h2>Veículos</h2>
-    <select>
-        <option value="ranger">Ranger</option>
-        <option value="mustang">Mustang</option>
-        <option value=""></option>
-        <option value=""></option>
-    </select>
-</div>
+<h1 class="page-title">Dashboard FORD</h1>
 
-<app-card></app-card>
-<app-card></app-card>
-<app-card></app-card>
+<section class="cards">
+    <div class="card">
+        <h2 class="card__title">Veículos</h2>
+        <select class="card__content">
+            <option value="ranger">Ranger</option>
+            <option value="mustang" selected>Mustang</option>
+            <option value="temtory">Temtory</option>
+            <option value="broncoSport">Bronco Sport</option>
+        </select>
+    </div>
+
+    <app-card></app-card>
+    <app-card></app-card>
+    <app-card></app-card>
 </section>
 
 <section>
-    <img src="" alt="">
+    <img src="/img/mustang.png" alt="Mustang Ford" class="car-img">
 </section>
 
 <section>
-    <table>
-        <thead>
-            <tr>
-                <th></th>
-            </tr>
-        </thead>
-    </table>
+    <app-car-table></app-car-table>
 </section>

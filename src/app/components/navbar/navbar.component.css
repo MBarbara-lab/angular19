@@ -1,0 +1,25 @@
+nav {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh;
+    width: 100vw;
+}
+
+.sidebar-btn,
+.logout-btn {
+    background-size: cover;
+    background-color: #FFF;
+    width: 3vh;
+    height: 3vh;
+    border: none;
+}
+
+.sidebar-btn {
+    background-image: url(/img/menu.png);
+}
+
+.logout-btn {
+    background-image: url(/img/user.png);
+}

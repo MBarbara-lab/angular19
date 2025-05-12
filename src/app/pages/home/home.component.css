@@ -5,31 +5,6 @@
     flex-direction: column;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2vh;
-    width: 100vw;
-}
-
-.sidebar-btn,
-.logout-btn {
-    background-size: cover;
-    background-color: #FFF;
-    width: 3vh;
-    height: 3vh;
-    border: none;
-}
-
-.sidebar-btn {
-    background-image: url(/img/menu.png);
-}
-
-.logout-btn {
-    background-image: url(/img/user.png);
-}
-
 .main {
     display: flex;
     width: 100vw;
@@ -48,7 +23,7 @@ nav {
     position: absolute;
     align-self: center;
     justify-self: center;
-    background-color: #ffffffde;
+    background-color: #fff;
     border: 2px solid #777777;
     border-radius: 5px;
 }
@@ -61,5 +36,5 @@ nav {
 
 .pop-up__text {
     padding: 1vh;
-    color: #1351D8;
+    color: var(--blue);
 }
